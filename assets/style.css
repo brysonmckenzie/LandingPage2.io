@@ -1,0 +1,193 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a:link {}
+
+.pre-header {
+    background: #ffffff;
+}
+
+/* span {
+    color: rgb(251, 161, 58)
+} */
+
+.border-back {
+    background-image: linear-gradient(to right, rgb(6, 181, 148), rgb(251, 161, 58));
+    height: 100%;
+    padding: 20px 20px 20px 0px;
+    /* width: 100%; */
+    display: block;
+}
+
+.main-back {
+    height: 100%;
+    /* background-image: url(../assets/images/close-up-creepy-dark-619418.jpg); */
+    background-size: cover;
+    padding: 70px;
+}
+
+#terms li {
+    display: inline-block;
+    float: right;
+}
+
+#terms {
+    color: white;
+    display: block;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 0;
+}
+
+#top {
+    height: 30px;
+    display: block;
+    margin: 0 auto;
+}
+
+.gift-text {
+    text-align: center;
+    padding: 20px 0px 20px 0px;
+    color: rgb(46, 110, 153);
+}
+
+#visa-card {
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 30px;
+    width: 50%
+}
+
+#btn-card {
+    height: 100%;
+    /* width: 100%; */
+    /* display: block; */
+    display: block;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px 50px 20px 50px;
+    color: white;
+    background-color: rgb(251, 161, 58);
+    font-size: 20pt;
+    font-weight: 900
+}
+
+.dis {
+    font-family: 'Open Sans', sans-serif;
+    color: rgb(126, 126, 123);
+    background: rgb(70, 76, 59);
+    font-size: 14px;
+    padding: 50px 0px 50px 0px;
+}
+
+#bottom {
+    height: 60px;
+    display: block;
+    margin: 0 auto;
+}
+
+.free-mid {
+    text-align: center;
+    margin-bottom: 50px;
+    color: rgb(46, 110, 153);
+}
+
+#bottom-terms {}
+
+#bottom-terms li {
+    display: inline
+}
+
+#btn-card h1 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15pt;
+}
+
+#btn-card h3 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15pt;
+    margin-top: -20px;
+}
+
+@media screen and (max-width: 560px) {
+    #visa-card {
+        width: 100%;
+    }
+    #btn-card {
+        font-size: 15pt
+    }
+}
+
+
+.pic {
+    /* background: gray; */
+    padding: 20px;
+    margin-bottom: 100px;
+    height: 350px;
+    
+}
+#pic1{
+    /* height: 100%;
+    width: 100; */
+    background-image: url(images/join_now.jpg);
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center
+    /* padding: 20px; */
+    color: #01be9e;
+    z-index: 0;
+
+}
+#pic2{
+    background-image: url(images/explore.jpg);
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center
+}
+#pic3{
+    background-image: url(images/save.jpg);
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center
+}
+.titled {
+    display: block;
+    text-align: center;
+    color: #01be9e;
+    font-size: 24px;
+    font-weight: 700;
+    position: relative;
+    top: 77px;
+    transform: translate(-50%);
+    left: 50%;
+    line-height: 153px;
+    /* z-index: -0; */
+}
+.titled:before {
+    content: "";
+    background: #fff;
+    width: 153px;
+    height: 153px;
+    border-radius: 50px;
+    opacity: .9;
+    position: absolute;
+    top: 0px;
+    left: 50%;
+    z-index: 99;
+    transform: translateX(-50%) rotate(45deg);
+    z-index: -1;
+
+}
+.pic p{
+    margin-top: 20px;
+    font-family: 'Open Sans', sans-serif;
+    color: rgb(46, 110, 153)
+}
